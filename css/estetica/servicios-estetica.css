@@ -1,0 +1,213 @@
+#servicios-estetica {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.servicios-estetica-intercontenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-width: 1366px;
+    width: 90%;
+}
+
+.servicios-estetica-contenedor {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo-imagen-principal h2{
+    position: relative;
+    z-index: 34;
+    margin-top: -40px;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.4rem + 0.8vw);
+    color:  #4F7778;
+}
+
+#imagen-titulo-principal {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: 2;
+    text-align: center;
+}
+
+#imagen-titulo-principal img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#texto-servicio-uno {
+    width: 65%;
+    min-width: 270px;
+    max-width: 850px;
+    height: auto;
+    margin: 0 0;
+    text-align: justify;
+  
+}
+
+#texto-servicio-uno h3 {
+    margin-top: 20px;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.2rem + 0.2vw);
+    color:  #4F7778;
+    letter-spacing: 1px;
+}
+
+#texto-servicio-uno p {
+    font-family: "Segoe UI Semibold";
+    font-size: calc(0.9rem + 0.5vw);
+    color: #858585;
+    margin-top: 20px;
+}
+
+#imagen-servicio-uno {
+    width: 30%;
+    min-width: 270px;
+    max-width: 850px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#imagen-servicio-uno img{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-dual {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#texto2-servicio {
+    min-width: 270px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#texto2-servicio {
+    min-width: 270px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#boton-cotizar-servicio {
+    min-width: 270px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#boton-cotizar-servicio a {
+    display: block;
+    margin: 0 auto;
+    min-height: 50px;
+    height: auto;
+    background-color: #C3FF9F;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 3px solid #C3FF9F;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    min-width: 270px;
+    width: 100%;
+    max-width: 1180px;
+}
+
+#texto2-servicio p{
+    font-family: "Segoe UI Regular";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 0px;
+}
+
+#texto3-servicio p{
+    font-family: "Segoe UI Regular";
+    font-size: calc(0.8rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+}
+
+@media (min-width:200px) {
+    .servicios-estetica-contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        margin-top: 20px;
+    }
+
+    #texto-servicio-uno p {
+    font-size: calc(1rem + 0.6vw);
+    }
+
+    #texto-servicio-uno {
+        width: 100%;
+    }
+
+    #imagen-servicio-uno {
+        width: 100%;
+    }
+}
+
+@media (min-width:1089px) {
+    .servicios-estetica-contenedor {
+        max-width: 1366px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #texto-servicio-uno p {
+        font-family: "Segoe UI Semibold";
+        font-size: calc(0.9rem + 0.5vw);
+        color: #858585;
+        margin-top: 20px;
+    }
+
+    #texto-servicio-uno {
+        width: 65%;
+        min-width: 270px;
+        max-width: 850px;
+        height: auto;
+        margin: 0 0;
+    }
+
+    #imagen-servicio-uno {
+        width: 30%;
+        min-width: 270px;
+        max-width: 850px;
+        height: auto;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+}

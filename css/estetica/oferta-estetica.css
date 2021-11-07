@@ -1,0 +1,139 @@
+#oferta-estetica {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2FDF8;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#oferta-estetica .contenedor {
+    max-width: 1200px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+}
+
+#imagen-estetica-dos{
+    min-width: 270px;
+    width: 50%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#imagen-estetica-dos img{
+    min-width: 270px;
+    width: 100%;
+    height: auto;
+    margin-top: -30%;
+    margin-bottom: -30%;
+}
+
+#texto-estetica-dos{
+    min-width: 270px;
+    width: 50%;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+
+#texto-estetica-dos p{
+    font-family: "Segoe UI Regular";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#texto-estetica-dos ul{
+    list-style-image: url("/img/global/patita mini.svg");
+}
+
+#texto-estetica-dos li{
+    font-family: "Segoe UI Regular";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    padding-top: 12px;
+}
+
+@media (min-width:200px) {
+
+    #oferta-estetica {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #F2FDF8;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #imagen-estetica-dos{
+        width: 100%;
+    }
+
+    #texto-estetica-dos{
+        width: 100%;
+    }
+
+    #oferta-estetica .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+    }
+
+    #imagen-estetica-dos img{
+        min-width: 270px;
+        width: 80%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 0%;
+    }
+}
+
+@media (min-width:1089px) {
+
+    #oferta-estetica {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2FDF8;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    }
+
+    #imagen-estetica-dos{
+        min-width: 270px;
+        width: 50%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #texto-estetica-dos{
+        min-width: 270px;
+        width: 50%;
+        max-width: 1200px;
+        padding-bottom: 40px;
+    }
+
+    #oferta-estetica .contenedor {
+        max-width: 1200px;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    #imagen-estetica-dos img{
+        min-width: 270px;
+        width: 80%;
+        height: auto;
+        margin-top: -30%;
+        margin-bottom: -30%;
+        margin-left: 0;
+    }
+}

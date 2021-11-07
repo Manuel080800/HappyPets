@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+#subContenedor1{
+    
+    margin-top: 60px;
+    height: auto;
+    max-width: 1366px;
+    padding-top: 30px;
+  
+}
+#subArticulo1{
+    width: 90%;
+  
+    
+}
+#subArticulo2{
+    width: 90%;
+    
+}
+#vacunacion-desparacitacion {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+#vacunacion-desparacitacion .contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    height: auto;
+    max-width: 1366px;
+    padding-top: 30px;
+
+}
+
+#texto-vacunacion-desparacitacion {
+    min-width: 270px;
+    width: 65%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 40px;
+   
+}
+
+#texto-vacunacion-desparacitacion div{
+    margin: 0 0;
+ 
+}
+
+#texto-vacunacion-desparacitacion h2{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.2vw);
+    color: #858585;
+ 
+}
+
+#texto-vacunacion-desparacitacion p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+   
+}
+
+#imagen-vacunacion-desparacitacion {
+    min-width: 270px;
+    width: 45%;
+    max-width: 360px;
+    margin-bottom: 40px;
+  
+}
+
+#imagen-vacunacion-desparacitacion h2{
+    font-family: "Tahoma Black", 'Noto Sans JP', sans-serif;
+    font-size: calc(1.4rem + 0.4vw);
+    color:  #4F7778;
+    
+}
+
+#imagen-vacunacion-desparacitacion img {
+    width: 100%;
+        
+    height: auto;
+    
+}
+#subContenedor1 h2{
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.4rem + 0.4vw);
+    color:  #4F7778;
+}
+#subArticulo2 a {
+    display: block;
+    margin: 0 auto;
+    min-height: 50px;
+    height: auto;
+    background-color: #4F7778;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 0%;
+    border-radius: 50px;
+    
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.2rem + 0.4vw);
+    width: 100%;
+    padding: 10px 20px;
+   
+}
+
+@media (min-width:200px) {
+    #vacunacion-desparacitacion .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+    }
+
+    #texto-vacunacion-desparacitacion h2{
+        font-size: calc(1rem + 0.2vw);
+    }
+
+    #texto-vacunacion-desparacitacion p {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    #contenido-vacunacion-desparacitacion a {
+        width: 90%;
+    }
+
+    #imagen-vacunacion-desparacitacion img {
+        width: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+    #vacunacion-desparacitacion .contenedor {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #texto-vacunacion-desparacitacion h2{
+        font-size: 19px;
+    }
+
+    #texto-vacunacion-desparacitacion p {
+        font-size: 22px;
+    }
+
+    #imagen-vacunacion-desparacitacion img {
+        width: 80%;
+    }
+}

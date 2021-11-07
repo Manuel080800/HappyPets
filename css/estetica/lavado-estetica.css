@@ -1,0 +1,128 @@
+#lavado-estetica {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lavado-estetica-intercontenedor {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 1366px;
+    width: 90%;
+}
+
+#lavado-estetica .contenedor {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#lavado-estetica-texto{
+    text-align: justify;
+   
+}
+#lavado-estetica-texto h2{
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.3rem + 0.4vw);
+    color:  #4F7778;
+}
+
+#lavado-estetica-texto p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#lavado-estetica-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#imagen-lavado {
+    width: 65%;
+    min-width: 270px;
+    height: auto;
+}
+
+#imagen-lavado img{
+    width: 100%;
+    height: auto;
+}
+
+#contenedor-circulo-lavado {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    min-width: 270px;
+    width: 20%;
+    height: auto;
+}
+
+#circulo-lavado {
+    width: calc(12vw + 0%);
+    height: calc(12vw + 0%);
+    min-width: 130px;
+    min-height: 130px;
+    max-width: 200px;
+    max-height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #C3FF9F;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#circulo-lavado h3{
+    padding-top: 25%;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(2rem + 1vw);
+    color:  white;
+}
+
+#circulo-lavado p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(0.6rem + 0.2vw);
+    padding: 0px 10px;
+    color: #707070;
+}
+
+@media (min-width:200px) {
+
+    #circulo-lavado {
+        width: calc(12vw + 10vh);
+        height: calc(12vw + 10vh);
+    }
+
+    #circulo-lavado h3{
+        font-size: calc(2rem + 1vw);
+    }
+    
+    #circulo-lavado p{
+        font-size: calc(0.6rem + 0.2vw);
+    }
+}
+
+@media (min-width:1024px) {
+
+    #circulo-lavado {
+        width: calc(12vw + 0);
+        height: calc(12vw + 0);
+    }
+
+    #circulo-lavado h3{
+        font-size: 45px;
+    }
+    
+    #circulo-lavado p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,75 @@
+#quienes-somos {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: -2;
+}
+
+.quienes-somos-intercontenedor {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 1366px;
+    width: 90%;
+}
+
+#quienes-somos .contenedor {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#quienes-somos-texto-principal {
+    min-width: 270px;
+    width: 100%;
+    max-width: 850px;
+    text-align: justify;
+  
+}
+
+#quienes-somos-texto-principal p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.titulo-imagen-principal h2{
+    position: relative;
+    margin-top: -40px;
+}
+
+#imagen-titulo-principal {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-principal img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:200px) {
+    #imagen-principal img{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1024px) {
+    #imagen-principal img{
+        margin-left: 0px;
+    }
+}

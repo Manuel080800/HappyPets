@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.899" height="65.899" viewBox="0 0 65.899 65.899">
+  <defs>
+    <filter id="Icon_ionic-logo-whatsapp" x="0" y="0" width="65.899" height="65.899" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_ionic-logo-whatsapp)">
+    <path id="Icon_ionic-logo-whatsapp-2" data-name="Icon ionic-logo-whatsapp" d="M26.634,2.25A23.424,23.424,0,0,0,3.12,25.583,23.092,23.092,0,0,0,6.494,37.631L2.25,50.149l13.019-4.136a23.554,23.554,0,0,0,34.88-20.43A23.424,23.424,0,0,0,26.634,2.25ZM38.327,34.444c-.553,1.371-3.055,2.623-4.159,2.681s-1.134.855-7.146-1.757-9.628-8.964-9.913-9.373-2.329-3.319-2.218-6.25a6.663,6.663,0,0,1,2.288-4.889,2.3,2.3,0,0,1,1.629-.686c.473-.008.78-.014,1.13,0s.876-.073,1.331,1.137,1.544,4.186,1.684,4.489a1.089,1.089,0,0,1,.011,1.045,4.084,4.084,0,0,1-.637.971c-.314.337-.66.753-.94,1.01-.312.285-.638.6-.31,1.2a17.994,17.994,0,0,0,3.184,4.248,16.406,16.406,0,0,0,4.715,3.135c.59.321.942.285,1.307-.1s1.565-1.684,1.988-2.263.819-.468,1.362-.249,3.438,1.77,4.028,2.09.983.484,1.124.738A4.938,4.938,0,0,1,38.327,34.444Z" transform="translate(6.75 3.75)" fill="#c3ff9f"/>
+  </g>
+</svg>

@@ -1,0 +1,232 @@
+#estetica {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2FDF8;
+    position: relative;
+    z-index: -2;
+}
+
+#estetica .contenedor {
+    max-width: 1366px;
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content:  flex-end; 
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.subcontenedor-estetica {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    height: auto;
+    
+}
+
+#imagen-titulo-estetica {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-estetica img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.titulo-imagen-estetica h2 {
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.4rem + 0.4vw);
+    color:  #4F7778;
+}
+
+#texto-estetica {
+    min-width: 270px;
+    width: 45%;
+    max-width: 1280px;
+    text-align: justify;
+    
+}
+
+#texto-estetica p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#imagen-estetica {
+    min-width: 270px;
+    width: 45%;
+    max-width: 1280px;
+}
+
+#imagen-estetica img{
+    margin: 0 auto;
+    width: 40%;
+    min-width: 270px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+.titulo-imagen-estetica h2{
+    position: relative;
+    margin-top: -40px;
+}
+
+#imagen-titulo-estetica {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-estetica img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:200px) {
+    .subcontenedor-estetica {
+        width: 70%;
+    }
+
+    #estetica .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        width: 70%;
+    }
+
+    #texto-estetica {
+        width: 100%;
+    }
+
+    #imagen-estetica {
+        width: 100%;
+    }
+
+    .subcontenedor-estetica {
+        margin-bottom: calc(-1vh - 55px);
+    }
+}
+
+@media (min-width:550px) {
+    .subcontenedor-estetica {
+        width: 70%;
+    }
+
+    #estetica .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        width: 70%;
+    }
+
+    #texto-estetica {
+        width: 100%;
+    }
+
+    #imagen-estetica {
+        width: 100%;
+    }
+
+    .subcontenedor-estetica {
+        margin-bottom: calc(-1vh - 55px);
+    }
+}
+
+@media (min-width:768px) {
+    .subcontenedor-estetica {
+        width: 70%;
+    }
+
+    #estetica .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        width: 70%;
+    }
+
+    #texto-estetica {
+        width: 100%;
+    }
+
+    #imagen-estetica {
+        width: 100%;
+    }
+
+    .subcontenedor-estetica {
+        margin-bottom: calc(-0.8vh - 55px);
+    }
+}
+
+@media (min-width:1024px) {
+    .subcontenedor-estetica {
+        width: 66%;
+    }
+
+    #estetica .contenedor {
+        max-width: 1366px;
+        display: flex;
+        width: 66%;
+        flex-wrap: wrap;
+        align-content:  flex-end; 
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .titulo-imagen-estetica h2 {
+        font-size: 28px;
+    }
+
+    #texto-estetica p{
+        font-size: 20px;
+    }
+
+    #texto-estetica {
+        width: 100%;
+    }
+
+    #imagen-estetica {
+        width: 100%;
+    }
+
+    .subcontenedor-estetica {
+        margin-bottom: calc(-4vw - 14px);
+    }
+}
+
+@media (min-width:1380px) {
+    #estetica .contenedor {
+        max-width: 1100px;
+        display: flex;
+        width: 66%;
+        flex-wrap: wrap;
+        align-content:  flex-end; 
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .subcontenedor-estetica {
+        margin-bottom: calc(-85px);
+    }
+}

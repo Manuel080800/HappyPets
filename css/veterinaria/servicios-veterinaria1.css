@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+#servicio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#servicio .contenedor {
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+}
+
+.titulo-imagen-veterinaria {
+
+}
+
+.titulo-imagen-veterinaria h2{
+    position: relative;
+    margin-top: -40px;
+}
+
+#imagen-titulo-veterinaria {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-veterinaria img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#texto-servicio {
+    min-width: 270px;
+    width: 45%;
+    max-width: 480px;
+}
+
+#texto-servicio h2{
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.4rem + 0.4vw);
+    color:  #4F7778;
+}
+
+#texto-servicio h3{
+    margin-top: 40px;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.2rem + 0.2vw);
+    color:  #4F7778;
+    letter-spacing: 1px;
+}
+
+#texto-servicio p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 40px;
+}
+
+#imagen-servicio {
+    min-width: 270px;
+    width: 45%;
+    max-width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:  flex-end; 
+}
+
+#imagen-servicio img {
+    width: 100%;
+    height: auto;
+}
+
+#circulo-servicio {
+    width: 12vw;
+    height: 12vw;
+    min-width: 130px;
+    min-height: 130px;
+    max-width: 200px;
+    max-height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #C3FF9F;
+    margin-top: -45%;
+    position: relative;
+    left: 15%;
+    z-index: 1;
+    text-align: center;
+}
+
+#circulo-servicio h3{
+    padding-top: 25%;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(2rem + 1vw);
+    color:  white;
+}
+
+#circulo-servicio p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(0.8rem + 0.4vw);
+    color: #707070;
+}
+
+@media (min-width:200px) {
+    #servicio .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+    }
+
+    #texto-servicio h2{
+        font-size: calc(1.4rem + 0.4vw);
+    }
+
+    #texto-servicio p {
+        font-size: calc(1rem + 0.4vw);
+    }
+
+    #contenido-servicio a {
+        width: 90%;
+    }
+
+    #circulo-servicio h3{
+        font-size: calc(2rem + 1vw);
+    }
+    
+    #circulo-servicio p{
+        font-size: calc(0.8rem + 0.4vw);
+    }
+}
+
+@media (min-width:1024px) {
+    #servicio .contenedor {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #texto-servicio h2{
+        font-size: 28px;
+    }
+
+    #texto-servicio p {
+        font-size: 20px;
+    }
+
+    #contenido-servicio a {
+        width: 84%;
+    }
+
+    #circulo-servicio h3{
+        font-size: 45px;
+    }
+    
+    #circulo-servicio p{
+        font-size: 18px;
+    }
+}

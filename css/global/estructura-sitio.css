@@ -1,0 +1,119 @@
+@import url(fontello.css);
+@import url(menu-sitio.css);
+@import url(botones-flotantes-sitio.css);
+@import url(contactanos-sitio.css);
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .contenedor {
+    display: table;
+    padding-top: 15px;
+    max-width: 1366px;
+}
+
+footer {
+    background-color: #4F7778;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer .contenedor{
+    max-width: 1366px;
+}
+
+footer p {
+    font-family: "Segoe UI";
+    font-size: 18px;
+}
+
+footer h3 {
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+footer .contenedor-alineacion {
+    padding-top: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+.contenedor-alineacion img {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.publicidad-imagen img{
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+}
+
+#logo-happypets {
+    margin-top: 2px;
+    float: left;
+    width: 140px;
+    height: auto;
+}
+
+#imagen-fondo-principal {
+    background-image: url("/img/principal/fondoIndex.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#imagen-fondo-estetica {
+    background-image: url("/img/estetica/fondoEstetica.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#imagen-fondo-veterinaria {
+    background-image: url("/img/veterinaria/fondoVeterinaria.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#escala-logo {
+    width: 100%;
+    height: 100%;
+}
+
+#contenedor-logo-imagen {
+    margin: 20px auto;
+    width: auto;
+    max-width: 281px;
+    height: auto;
+}
+
+@media (min-width:200px) {
+    footer .contenedor-alineacion {
+        width: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+    footer .contenedor-alineacion {
+        width: 33%;
+    }
+}

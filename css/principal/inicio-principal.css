@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+#presentacion-titulo {
+    margin: 0 auto;
+    margin-top: calc(20vh - 2.5vw);
+    text-align: center;
+}
+
+#presentacion-titulo h2 {
+    margin: 0 auto;
+    font-family:  "Tahoma Black", 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+#presentacion-titulo img{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 700px;
+    height: auto;
+}
+
+.contenedor-principal-principal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor-principal-principal p{
+    margin-bottom: -20px;
+}
+
+#alineacion-principal {
+    font-family: "Segoe UI";
+    font-size: 30px;
+    color: white;
+}
+
+#boton-reservar {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    background-color: #c3ff9f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10vh;
+    border-radius: 50px;
+    border: 3px solid #c3ff9f;
+    font-family:  "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+}
+#boton-reservar:hover{
+    background-color:  #2c5555;
+    border: 3px solid #2c5555;
+}
+#boton-reservar:hover{
+    background-color:  #8edb61;
+    border: 3px solid #8edb61;
+    
+    }
+
+
+ #servicio-inicial-botones111:hover, #servicio-inicial-botones222:hover, #boton-icon-reservar:hover{
+    background-color:  #2c5555;
+    border: 3px solid #2c5555;
+}
+
+@media (min-width:200px) {
+    #presentacion-titulo h2 {
+        font-size: calc(1.2rem + 0.2vw);
+    }
+
+    #boton-reservar {
+        font-size: calc(1.4rem + 0.4vw);
+        width: 60%;
+    }
+
+    #alineacion-principal{
+        font-size: calc(1.4rem + 1vw);
+    }
+}
+
+@media (min-width:1024px) {
+    #presentacion-titulo h2 {
+        font-size: 24px;
+    }
+
+    #boton-reservar {
+        font-size: 40px;
+        width: 40%;
+    }
+
+    #alineacion-principal{
+        font-size: 30px;
+    }
+}

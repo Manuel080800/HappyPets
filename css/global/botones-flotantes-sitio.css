@@ -1,0 +1,49 @@
+.redes-flotantes-whatsapp {
+    cursor: pointer;
+    position: fixed;
+    right: 3%;
+    top: 82vh;
+    z-index: 20;
+    margin-top: 2px;
+    float: right;
+}
+
+.redes-flotantes-whatsapp a {
+    display: block;
+    color: #fff;
+    height: 70px;
+    text-decoration: none;
+}
+.redes-flotantes-whatsapp:hover {
+    outline: none;
+}
+
+.redes-flotantes-whatsapp img{
+    width: 60px;
+    height: 60px;
+}
+
+.redes-flotantes-arriba {
+    cursor: pointer;
+    position: fixed;
+    right: 3%;
+    top: calc(82vh - 70px);
+    z-index: 20;
+    margin-top: 2px;
+    float: right;
+}
+
+.redes-flotantes-arriba a {
+    display: block;
+    color: #fff;
+    height: 70px;
+    text-decoration: none;
+}
+.redes-flotantes-arriba:hover {
+    outline: none;
+}
+
+.redes-flotantes-arriba img{
+    width: 60px;
+    height: 60px;
+}

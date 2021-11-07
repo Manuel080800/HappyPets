@@ -1,0 +1,212 @@
+#veterinaria {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2FDF8;
+    position: relative;
+    z-index: -2;
+}
+
+#veterinaria .contenedor {
+    max-width: 1366px;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    align-content:  flex-end; 
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.subcontenedor-veterinaria {
+    max-width: 1366px;
+    width: 70%;
+    display: flex;
+    height: auto;
+    
+}
+
+#imagen-titulo-veterinaria {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-veterinaria img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.titulo-imagen-veterinaria h2 {
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.4rem + 0.4vw);
+    color:  #4F7778;
+}
+
+#texto-veterinaria {
+    min-width: 270px;
+    width: 45%;
+    max-width: 1280px;
+    text-align: justify;
+    
+}
+
+#texto-veterinaria p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#imagen-veterinaria {
+    min-width: 270px;
+    width: 45%;
+    max-width: 1280px;
+}
+
+#imagen-veterinaria img{
+    margin: 0 auto;
+    width: 50%;
+    min-width: 270px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+.titulo-imagen-veterinaria h2{
+    position: relative;
+    margin-top: -40px;
+}
+
+#imagen-titulo-veterinaria {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-veterinaria img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:200px) {
+    .subcontenedor-veterinaria {
+        width: 70%;
+    }
+
+    #veterinaria .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        width: 70%;
+    }
+
+    #texto-veterinaria {
+        width: 100%;
+    }
+
+    #imagen-veterinaria {
+        width: 100%;
+    }
+
+    .subcontenedor-veterinaria {
+        margin-bottom: calc(-3.8vh - 30px);
+    }
+}
+
+@media (min-width:768px) {
+    .subcontenedor-veterinaria {
+        width: 70%;
+    }
+
+    #veterinaria .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        width: 70%;
+    }
+
+    #texto-veterinaria {
+        width: 100%;
+    }
+
+    #imagen-veterinaria {
+        width: 100%;
+    }
+
+    .subcontenedor-veterinaria {
+        margin-bottom: calc(-3.8vw - 25px);
+    }
+}
+
+@media (min-width:1024px) {
+    .subcontenedor-veterinaria {
+        width: 66%;
+    }
+
+    #veterinaria .contenedor {
+        max-width: 1366px;
+        display: flex;
+        width: 68%;
+        flex-wrap: wrap;
+        align-content:  flex-end; 
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .titulo-imagen-veterinaria h2 {
+        font-size: 28px;
+    }
+
+    #texto-veterinaria p{
+        font-size: 20px;
+    }
+
+    #texto-veterinaria {
+        width: 100%;
+    }
+
+    #imagen-veterinaria {
+        width: 100%;
+    }
+
+    .subcontenedor-veterinaria {
+        margin-bottom: calc(-3.8vw - 20px);
+    }
+}
+
+@media (min-width:1380px) {
+    #veterinaria
+    {
+        margin-left: -30px;
+    }
+
+    #veterinaria .contenedor {
+        max-width: 1366px;
+        display: flex;
+        width: 68%;
+        flex-wrap: wrap;
+        align-content:  flex-end; 
+        margin-top: 30px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .subcontenedor-veterinaria {
+        margin-bottom: calc(-85px);
+    }
+}

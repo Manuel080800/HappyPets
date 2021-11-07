@@ -1,0 +1,166 @@
+#baño-estetica {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2FDF8;
+    padding-bottom: 30px;
+}
+
+.baño-estetica-intercontenedor {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 1366px;
+    width: 90%;
+}
+
+#baño-estetica .contenedor {
+    max-width: 1366px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#baño-estetica-texto h2{
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: calc(1.3rem + 0.4vw);
+    color:  #4F7778;
+}
+
+#texto-baño p{
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#baño-estetica-imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#texto-baño {
+    width: 65%;
+    min-width: 270px;
+    height: auto;
+    text-align: justify;
+    
+}
+
+#imagen-baño {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 35%;
+    min-width: 270px;
+    height: auto;
+}
+
+#imagen-baño img{
+    width: 75%;
+    height: auto;
+}
+
+#boton-tabla-precios {
+    min-width: 270px;
+    width: 100%;
+    max-width: 1180px;
+}
+
+#boton-tabla-precios a {
+    display: block;
+    margin: 0 auto;
+    min-height: 50px;
+    height: auto;
+    background-color: #4F7778;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 3px solid #4F7778;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    min-width: 270px;
+    width: 100%;
+    max-width: 1180px;
+}
+
+@media (min-width:200px) {
+    #baño-estetica-imagen {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+        margin-top: 20px;
+    }
+
+    #boton-tabla-precios {
+        width: 95%;
+    }
+
+    #boton-tabla-precios a {
+        width: 100%;
+        font-size: calc(1.2rem + 0.4vw);
+    }
+
+    #texto-baño {
+        width: 100%;
+    }
+    
+    #imagen-baño {
+        width: 100%;
+    }
+
+    #imagen-baño img {
+        width: 100%;
+    }
+}
+
+@media (min-width:1089px) {
+    #baño-estetica-imagen {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    #boton-tabla-precios {
+        width: 100%;
+    }
+    
+    #boton-tabla-precios a {
+        width: 100%;
+    }
+
+    #boton-tabla-precios a {
+        width: 100%;
+        font-size: calc(1.4rem + 0.4vw);
+    }
+
+    #texto-baño {
+        width: 65%;
+        min-width: 270px;
+        height: auto;
+    }
+
+    #imagen-baño {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 35%;
+        min-width: 270px;
+        height: auto;
+    }
+
+    #imagen-baño img{
+        width: 75%;
+        height: auto;
+    }
+}

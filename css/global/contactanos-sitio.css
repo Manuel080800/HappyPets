@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+#contactanos {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #F2FDF8;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#contactanos .contenedor {
+    max-width: 1366px;
+}
+
+#contactanos p {
+    font-family: "Segoe UI";
+    font-size: 22px;
+    color: #858585;
+    margin: auto auto;
+    padding-bottom: 15px;
+}
+
+#titulo-contactanos {
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+#titulo-contactanos h2{
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #4F7778;
+    margin-top: -70px;
+    margin-bottom: 40px;
+}
+
+#boton-icon-reservar {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 50px;
+    background-color: #4F7778;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: 3px solid #4F7778;
+    font-family: "Tahoma Black", 'Source Sans Pro', sans-serif;
+    font-size: 32px, 32px, 32px;
+}
+
+@media (min-width:200px) {
+    #titulo-contactanos h2 {
+        font-size: 40px;
+    }
+    
+    #contactanos p {
+        font-size: calc(1.2rem + 0.2vw);
+    }
+
+    #boton-icon-reservar {
+        width: 80%;
+        font-size: calc(1.9rem + 0.2vw);
+    }
+}
+
+@media (min-width:1024px) {
+    #titulo-contactanos h2 {
+        font-size: 40px;
+    }
+
+    #contactanos p {
+        font-size: 22px;
+    }
+
+    #boton-icon-reservar {
+        width: 60%;
+        font-size: 32px;
+    }
+}

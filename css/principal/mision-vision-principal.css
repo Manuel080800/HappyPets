@@ -1,0 +1,107 @@
+#mision-vision {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#mision-vision .contenedor {
+    max-width: 1366px;
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    height: auto;
+}
+
+#texto-mision-vision {
+    min-width: 270px;
+    width: 40%;
+    max-width: 1200px;
+}
+
+#texto-mision-vision p {
+    font-family: "Segoe UI Semibold";
+    font-size: calc(1rem + 0.4vw);
+    color: #858585;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imagen-mision-vision {
+    min-width: 270px;
+    width: 45%;
+    max-width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#contenedor-imagen img{
+    width: 100%;
+    height: auto;
+}
+
+.titulo-imagen-principal h2{
+    position: relative;
+    margin-top: -40px;
+}
+
+#imagen-titulo-principal {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    z-index: -1;
+    text-align: center;
+}
+
+#imagen-titulo-principal img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:200px) {
+    #mision-vision .contenedor {
+        justify-content: center;
+        flex-wrap: none;
+        display: block;
+    }
+
+    #texto-mision-vision {
+        width: 100%;
+    }
+
+    #imagen-mision-vision {
+        width: 100%;
+    }
+}
+
+@media (min-width:1024px) {
+    #mision-vision .contenedor {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #texto-mision-vision {
+        min-width: 270px;
+        width: 40%;
+        max-width: 1200px;
+        text-align: justify;
+       
+    }
+    
+    #imagen-mision-vision {
+        min-width: 270px;
+        width: 45%;
+        max-width: 1200px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+}
